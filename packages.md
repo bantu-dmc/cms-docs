@@ -20,22 +20,24 @@ You can see more detail here: https://cartalyst.com/manual/sentinel/2.0 or https
 
 **3. venturecraft/revisionable**
 
-**4. baum/baum**
+**4. lord/laroute**
 
-**5. intervention/image**
+**5. baum/baum**
 
-**6. roumen/sitemap**
+**6. intervention/image**
 
-**7. davejamesmiller/laravel-breadcrumbs**
+**7. roumen/sitemap**
 
-**8. laravel/socialite**
+**8. davejamesmiller/laravel-breadcrumbs**
 
-**9. laravelcollective/html**
+**9. laravel/socialite**
+
+**10. laravelcollective/html**
 
 <a name="customized_package"></a>
 ## Customized packages
 
-We customized some packages, it located on `/core` directory
+We customized some packages, it located on /core directory
 
 **1. spatie/laravel-analytics (/core/analytics)**
 

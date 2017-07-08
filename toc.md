@@ -1,28 +1,21 @@
-- 
-    - [Overview](overview.md)
-    - [Screenshots](screenshots.md)
+- Overview
+    - [Overview](/v/{{version}}/overview)
 - Prologue
-    - [Release Notes](releases.md)
-    - [Upgrade Guide](upgrade.md)
+    - [Release Notes](/v/{{version}}/releases)
+    - [Upgrade Guide](/v/{{version}}/upgrade)
 - Getting Started
-    - [Installation](installation.md)
-    - [Virtual host](virtualhost.md)
+    - [Installation](/v/{{version}}/installation)
+    - [Virtual host](/v/{{version}}/virtualhost)
 - Packages
-    - [List packages](packages.md)
-    - [Google Analytics](analytics.md)
+    - [List packages](/v/{{version}}/packages)
+    - [Google Analytics](/v/{{version}}/analytics)
 - Plugin development
-    - [Commands](plugin.md)
+    - [Commands](/v/{{version}}/plugin)
 - Theme development
-    - [Overview](theme.md)
-    - [Assets](theme-assets.md)
-    - [Breadcrumb](theme-breadcrumb.md)
-    - [Widget](theme-widget.md)
-    - [MVC Pattern](theme-mvc-pattern.md)
-    - [Theme options](theme-options.md)
+    - [Theme](/v/{{version}}/theme)
     
-- Core
-    - [Filters](filters.md)
-    - [Actions](actions.md)
-    - [Shortcode](shortcode.md)
-    - [Meta box](meta_box.md)
-    - [Mail](mail.md)
+- Functions
+    - [Filters](/v/{{version}}/filters)
+    - [Actions](/v/{{version}}/actions)
+    - [Shortcode](/v/{{version}}/shortcode)
+    - [Meta box](/v/{{version}}/meta_box)
