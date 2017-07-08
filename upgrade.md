@@ -1,7 +1,21 @@
 # Upgrade Guide
 
+- [Upgrade To 2.2.1](#upgrade-2.2.1)
 - [Upgrade To 2.2](#upgrade-2.2)
 - [Upgrading To 2.1](#upgrade-2.1)
+
+<a name="upgrade-2.2.1"></a>
+## Upgrade To 2.2.1
+
+Remove admin bar configuration in your theme
+
+    class="{{ admin_bar_class() }}"
+    {!! admin_bar() !!}
+    
+Remove admin breadcrumb in your plugin if it is exists.
+
+    {!! Breadcrumbs::render('pageTitle', trans('download::category.create'), Route::currentRouteName()) !!}
+    <div class="clearfix"></div>
 
 <a name="upgrade-2.2"></a>
 ## Upgrade To 2.2

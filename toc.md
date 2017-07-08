@@ -13,6 +13,8 @@
     - [Commands](/v/{{version}}/plugin)
 - Theme development
     - [Overview](/v/{{version}}/theme)
+    - [Breadcrumb](/v/{{version}}/theme-breadcrumb)
+    - [Widget](/v/{{version}}/theme-widget)
     - [MVC Pattern](/v/{{version}}/theme-mvc-pattern)
     
 - Core

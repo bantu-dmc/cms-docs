@@ -1,10 +1,32 @@
 # Release Notes
 
+- [Botble 2.3](#version_2_3)
+- [Botble 2.2.1](#version_2_2_1)
 - [Botble 2.2](#version_2_2)
 - [Botble 2.1](#version_2_1)
 - [Botble 2.0](#version_2_0)
 - [Botble 1.0](#version_1_0)
 
+<a name="version_2_3"></a>
+## Botble 2.3
+    - Apply new media management. There is many change on media on this version so the document for Media will be update later.
+    - Add shortcode button above editor to easy add shortcode.
+    - Allow switch between Ckeditor and Tinymce.
+    - Fix bug when create new role.
+    - Fix bug activate/deactivate user.
+    - Add create user in admin area, now we have 2 options: create user and invite user.
+
+<a name="version_2_2_1"></a>
+## Botble 2.2.1
+    - Add post format (Default, gallery, video...)
+    - Fix bug in plugin language when default language is not set.
+    - Change route name of post, page, category in front site from "public.view" to "public.single.detail"
+    - Fix counter in Dashboard.
+    - Refactor admin breadcrumb.
+    - Set page title for each page in admin area.
+    - Add new demo theme
+    - Refactor show category list, theme list...
+    - Remove admin bar config in theme
 <a name="version_2_2"></a>
 ## Botble 2.2
     - Easier theme breadcrumbs. Now you can use Theme::breadcrumb()->add('label', 'http://...')->add('label2', 'http:...');
