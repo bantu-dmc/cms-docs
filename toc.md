@@ -12,10 +12,12 @@
 - Plugin development
     - [Commands](/v/{{version}}/plugin)
 - Theme development
-    - [Theme](/v/{{version}}/theme)
+    - [Overview](/v/{{version}}/theme)
+    - [MVC Pattern](/v/{{version}}/theme-mvc-pattern)
     
-- Functions
+- Core
     - [Filters](/v/{{version}}/filters)
     - [Actions](/v/{{version}}/actions)
     - [Shortcode](/v/{{version}}/shortcode)
     - [Meta box](/v/{{version}}/meta_box)
+    - [Mail](/v/{{version}}/mail)

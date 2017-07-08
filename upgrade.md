@@ -1,6 +1,27 @@
 # Upgrade Guide
 
+- [Upgrade To 2.2](#upgrade-2.2)
 - [Upgrading To 2.1](#upgrade-2.1)
+
+<a name="upgrade-2.2"></a>
+## Upgrade To 2.2
+
+Remove this line on `/config/app.php`
+    
+    Lord\Laroute\LarouteServiceProvider::class,
+    
+Remove laroute on `composer.json`
+    
+    "lord/laroute": "~2.4",
+
+There are many changes on `gulpfile.js` so if you don't change anything on this file. Please replace it with new `gulpfile.js`.
+
+Then, if you are using `Linux` or `OSX`, you can use `upgrade.sh` to continue upgrade to version 2.2.
+
+    $ sudo chmod -R 777 upgrade.sh
+    $ ./upgrade.sh
+
+Upgrade script for Windows OS will be update soon. From now, you can follow `upgrade.sh` content to upgrade your source code.
 
 <a name="upgrade-2.1"></a>
 ## Upgrading To 2.1

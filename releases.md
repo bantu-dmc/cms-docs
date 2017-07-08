@@ -1,9 +1,20 @@
 # Release Notes
 
+- [Botble 2.2](#version_2_2)
 - [Botble 2.1](#version_2_1)
 - [Botble 2.0](#version_2_0)
 - [Botble 1.0](#version_1_0)
 
+<a name="version_2_2"></a>
+## Botble 2.2
+    - Easier theme breadcrumbs. Now you can use Theme::breadcrumb()->add('label', 'http://...')->add('label2', 'http:...');
+    - Fix invite user
+    - Fix reset password
+    - Update email template and send mail function.
+    Now you can send mail by: `EmailHandler::send('Hello there', 'Test email', ['name' => 'Sang Nguyen', 'to' => 'sangit7b@gmail.com']);`
+    - Remove laroute package.
+    Please remove LarouteServiceProvider on /config/app.php and laroute package on composer.json.
+    
 <a name="version_2_1"></a>
 ## Botble 2.1
 

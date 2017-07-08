@@ -79,11 +79,11 @@ Example:
 ## Breadcrumbs
 In order to use breadcrumbs, follow the instruction below:
     
-    $theme->breadcrumb()->add('label', 'http://...')->add('label2', 'http:...');
+    Theme::breadcrumb()->add('label', 'http://...')->add('label2', 'http:...');
     
     // or
     
-    $theme->breadcrumb()->add(array(
+    Theme::breadcrumb()->add(array(
         array(
             'label' => 'label1',
             'url'   => 'http://...'

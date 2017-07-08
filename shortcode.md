@@ -6,6 +6,7 @@
 - [do_shortcode()](#do_shortcode)
     - [Description](#do_shortcode_description)
     - [Parameters](#do_shortcode_parameters)
+- [generate_shortcode()](#generate_shortcode)
     
 This concept based on Wordpress functions.
 
@@ -85,3 +86,13 @@ This might cause issues when plugins are disabled but the shortcode will still s
 **$ignore_html**: 
 - (bool) (Optional) When true, shortcodes inside HTML elements will be skipped.
 - Default value: false
+
+<a name="generate_shortcode"></a>
+##generate_shortcode()
+
+    /**
+     * @param $name
+     * @param array $attributes
+     * @return string
+     */
+    function generate_shortcode($name, array $attributes)
